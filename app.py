@@ -49,4 +49,4 @@ def submit():
     return jsonify(result=answer)
 
 if __name__ == "__main__":
-    app.run(host="127.0.0.1", port="1997", threaded=True)
+    app.run()
