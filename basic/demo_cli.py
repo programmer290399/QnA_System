@@ -162,7 +162,7 @@ class Demo(object):
         for multi_batch in test_data.get_batches(config.batch_size, num_batches=1, cluster=config.cluster):
             ei = self.evaluator.get_evaluation(self.sess, multi_batch)
             e = ei if e is None else e + ei
-        return (e.id2answer_dict[0])
+        return (e.id2answer_dict)
 
 if __name__ == "__main__":
     tf.app.run()
