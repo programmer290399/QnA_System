@@ -21,7 +21,7 @@ Keras-Preprocessing==1.1.0
 Markdown==3.1.1
 MarkupSafe==1.1.1
 mock==3.0.5
-nltk==3.4.3
+nltk==3.4.5
 numpy==1.16.4
 parso==0.4.0
 pexpect==4.7.0
